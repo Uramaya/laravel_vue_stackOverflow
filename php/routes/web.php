@@ -24,3 +24,7 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('register/verify/{token}', 'Auth\RegisterController@showForm');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
